@@ -33,7 +33,7 @@
     "@angular/router": "10.1.1",
     "@ngrx/effects": "11.0.1",
     "@ngrx/router-store": "10.0.0",
-    "@ngrx/store": "8.0.0-beta.2",
+    "@ngrx/store": "11.0.1",
     "@ngrx/store-devtools": "8.0.0-beta.2",
     "@ngx-translate/core": "11.0.1",
     "@swimlane/dragula": "3.8.0",
