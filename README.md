@@ -1,6 +1,6 @@
 # Fuse - Angular 11
 
-Material Design Admin Template with Angular 10 and Angular Material
+Material Design Admin Template with Angular 11 and Angular Material
 
 ## Development server
 
