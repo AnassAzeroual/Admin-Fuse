@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 
@@ -8,7 +8,7 @@ import { SampleComponent } from './sample.component';
 
 const routes = [
     {
-        path     : 'sample',
+        path: 'sample',
         component: SampleComponent
     }
 ];
@@ -17,18 +17,18 @@ const routes = [
     declarations: [
         SampleComponent
     ],
-    imports     : [
+    imports: [
         RouterModule.forChild(routes),
 
         TranslateModule,
 
         FuseSharedModule
     ],
-    exports     : [
+    exports: [
         SampleComponent
-    ]
+    ],
+    schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 
-export class SampleModule
-{
+export class SampleModule {
 }
